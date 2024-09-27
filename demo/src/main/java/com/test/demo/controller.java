@@ -10,6 +10,7 @@ public class controller {
 
     @GetMapping("/message")
     public String getMessage(){
+        System.out.println("This is for test purpose");
         return "Message ";
     }
 
