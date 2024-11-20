@@ -30,6 +30,8 @@ pipeline:
             arch: Amd64
             os: Linux
           runtime:
-            spec: {}
+            spec:
+              selectors:
+                - linux-amd64
             type: Docker
         type: CI
