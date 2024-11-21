@@ -32,6 +32,6 @@ pipeline:
           runtime:
             spec:
               selectors:
-                - linux-amd64
+                - docker-delegate
             type: Docker
         type: CI
